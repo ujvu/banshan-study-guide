@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>半山国家森林公园 · 中班研学行前提示（踩点实走版）</title>
+<meta name="description" content="杭州半山国家森林公园中班户外研学 · 7个实走点位实拍导航 + 幼儿安全要点 + 研学任务卡 + 行前清单 + 应急处置卡">
+<style>
+:root{
+  --fs:16px;
+  --ink:#1d2a23; --ink-2:#415349; --ink-3:#6b7a70;
+  --paper:#f5f3ec; --card:#ffffff; --line:#e4dfd2;
+  --green:#2f6b4f; --green-d:#1e4b37; --green-l:#e8f0e8; --green-m:#cfe0d2;
+  --bamboo:#7c8b4e; --clay:#c1622f; --clay-l:#fbeade; --amber:#a9791a; --amber-l:#fbf1d9;
+  --blue:#2b6a8f; --blue-l:#e4eff6;
+  --sh:0 1px 2px rgba(29,42,35,.05),0 8px 24px rgba(29,42,35,.07);
+  --r:18px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{font-size:var(--fs);scroll-behavior:smooth;scroll-padding-top:74px}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  line-height:1.65;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:var(--green-d)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+
+/* ---------- 顶栏 ---------- */
+header.top{position:sticky;top:0;z-index:60;background:rgba(30,75,55,.97);backdrop-filter:saturate(1.4) blur(8px);
+  color:#fff;box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.topin{display:flex;align-items:center;gap:10px;height:56px}
+.brand{font-weight:700;letter-spacing:.4px;font-size:.98rem;white-space:nowrap}
+.brand small{display:block;font-weight:400;font-size:.68rem;opacity:.8;letter-spacing:.6px}
+.navs{margin-left:auto;display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+.navs::-webkit-scrollbar{display:none}
+.navs a{color:#e9f2ec;text-decoration:none;font-size:.82rem;padding:6px 9px;border-radius:999px;white-space:nowrap}
+.navs a:hover{background:rgba(255,255,255,.14)}
+.tools{display:flex;gap:6px;margin-left:8px}
+.tbtn{border:1px solid rgba(255,255,255,.35);background:transparent;color:#fff;border-radius:9px;
+  padding:5px 9px;font-size:.78rem;cursor:pointer;line-height:1.3}
+.tbtn:hover{background:rgba(255,255,255,.14)}
+
+/* ---------- 通用 ---------- */
+section{padding:26px 0 4px}
+h2.sec{font-size:1.32rem;margin:6px 0 4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+h2.sec .num{background:var(--green);color:#fff;font-size:.78rem;border-radius:8px;padding:2px 9px;font-weight:700}
+.sub{color:var(--ink-3);font-size:.9rem;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+.pad{padding:16px 18px}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.tag{display:inline-block;font-size:.72rem;padding:2px 9px;border-radius:999px;background:var(--green-l);color:var(--green-d);border:1px solid var(--green-m);margin-right:6px}
+.tag.warn{background:var(--clay-l);color:#8d4419;border-color:#f0d4bd}
+.tag.blue{background:var(--blue-l);color:#1d4f6b;border-color:#c6dcea}
+.tag.amber{background:var(--amber-l);color:#7b580f;border-color:#ecd9a4}
+h3{font-size:1.03rem;margin:0 0 8px}
+h4{font-size:.9rem;margin:0 0 6px;color:var(--green-d)}
+p{margin:.45em 0}
+ul{margin:.4em 0;padding-left:1.15em}
+li{margin:.22em 0}
+hr.sep{border:0;border-top:1px dashed var(--line);margin:14px 0}
+.kv{font-size:.88rem;color:var(--ink-2)}
+.kv b{color:var(--ink)}
+
+/* ---------- HERO ---------- */
+.hero{background:
+  radial-gradient(120% 80% at 85% 0%,rgba(124,139,78,.55),transparent 60%),
+  linear-gradient(160deg,#1e4b37,#2f6b4f 55%,#3d7a55);
+  color:#fff;padding:30px 0 26px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-60px;bottom:-90px;width:280px;height:280px;border-radius:50%;
+  background:rgba(255,255,255,.07)}
+.badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);
+  border-radius:999px;padding:4px 12px;font-size:.76rem;letter-spacing:.8px;margin-bottom:12px}
+.hero h1{margin:0 0 10px;font-size:1.85rem;line-height:1.28;letter-spacing:.5px}
+.hero .lead{font-size:.95rem;opacity:.93;max-width:640px;margin-bottom:16px}
+.pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.pill{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);border-radius:12px;padding:7px 12px;font-size:.82rem}
+.pill b{display:block;font-size:.95rem}
+.cta{display:flex;gap:9px;flex-wrap:wrap}
+.btn{border:0;border-radius:11px;padding:11px 18px;font-size:.9rem;font-weight:600;cursor:pointer;
+  background:#fff;color:var(--green-d);text-decoration:none;display:inline-block}
+.btn.ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.4)}
+.btn.green{background:var(--green);color:#fff}
+.btn.clay{background:var(--clay);color:#fff}
+
+/* ---------- 速览卡 ---------- */
+.quick{border:2px solid var(--green);border-radius:var(--r);background:#fff;box-shadow:var(--sh);overflow:hidden}
+.quick .qh{background:var(--green-l);padding:10px 16px;border-bottom:1px solid var(--green-m);
+  font-weight:700;font-size:.95rem;color:var(--green-d);display:flex;align-items:center;gap:8px}
+.quick .qh span{font-size:.75rem;font-weight:500;color:var(--ink-3)}
+.qgrid{display:grid;grid-template-columns:1fr}
+@media(min-width:760px){.qgrid{grid-template-columns:repeat(3,1fr)}}
+.qcell{padding:12px 14px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.qcell b{display:block;font-size:.9rem;margin-bottom:3px}
+.qcell span{font-size:.82rem;color:var(--ink-2);display:block;line-height:1.5}
+.qcell .ico{font-size:1.15rem;margin-right:5px}
+
+/* ---------- 时间轴 ---------- */
+.tl{position:relative;padding-left:30px}
+.tl:before{content:"";position:absolute;left:9px;top:6px;bottom:6px;width:3px;border-radius:2px;
+  background:linear-gradient(180deg,var(--green),var(--bamboo),var(--clay))}
+.tlitem{position:relative;margin-bottom:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px;box-shadow:var(--sh)}
+.tlitem:before{content:"";position:absolute;left:-26px;top:15px;width:13px;height:13px;border-radius:50%;
+  background:#fff;border:3px solid var(--green)}
+.tlitem.hot:before{border-color:var(--clay)}
+.tlitem .t{font-size:.78rem;color:var(--green-d);font-weight:700;letter-spacing:.4px}
+.tlitem .n{font-weight:600;font-size:.96rem}
+.tlitem .d{font-size:.82rem;color:var(--ink-2)}
+
+/* ---------- 点位卡片 ---------- */
+.pt{margin-bottom:20px;display:grid;grid-template-columns:1fr;background:#fff;border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+@media(min-width:760px){.pt{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}}
+.pt .ph{position:relative;background:#dfe7de;min-height:220px}
+.pt .ph img{width:100%;height:100%;object-fit:cover;cursor:zoom-in}
+.pt .badge-no{position:absolute;left:12px;top:12px;background:rgba(30,75,55,.94);color:#fff;font-weight:700;
+  border-radius:10px;padding:4px 11px;font-size:.85rem;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+.pt .badge-ph{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.55);color:#fff;font-size:.72rem;
+  border-radius:8px;padding:3px 8px;backdrop-filter:blur(3px)}
+.pt .pb{padding:16px 18px}
+.pt .pb h3{font-size:1.1rem;margin-bottom:2px}
+.pt .loc{font-size:.78rem;color:var(--ink-3);margin-bottom:8px}
+.box{border-radius:12px;padding:10px 13px;margin-top:9px;font-size:.87rem;line-height:1.6}
+.box .bt{font-weight:700;font-size:.8rem;letter-spacing:.4px;margin-bottom:3px;display:flex;align-items:center;gap:6px}
+.box ul{margin:.2em 0;padding-left:1.2em}
+.box.look{background:#f6f8f5;border:1px solid #e3e9e1}
+.box.look .bt{color:var(--green-d)}
+.box.say{background:var(--amber-l);border:1px solid #ecd9a4}
+.box.say .bt{color:#7b580f}
+.box.task{background:var(--blue-l);border:1px solid #c6dcea}
+.box.task .bt{color:#1d4f6b}
+.box.safe{background:var(--clay-l);border:1px solid #f0d4bd}
+.box.safe .bt{color:#8d4419}
+.quote{font-size:.92rem;color:#5a4a1f;font-style:normal;border-left:3px solid #d9bf7a;padding-left:9px;margin:0}
+
+/* ---------- 安全表 ---------- */
+.sec-list{display:grid;gap:12px}
+.redline{background:linear-gradient(180deg,#fff6f0,#fff);border:1px solid #f0d4bd;border-radius:var(--r);padding:14px 16px}
+.redline .t{font-weight:700;color:#8d4419;margin-bottom:6px;display:flex;gap:7px;align-items:center}
+.laws{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:8px;margin-top:10px}
+.law{background:#fff;border:1px solid #f0d4bd;border-radius:12px;padding:9px 11px;font-size:.85rem}
+.law i{font-style:normal;display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;
+  background:var(--clay);color:#fff;font-size:.72rem;font-weight:700;margin-right:7px;vertical-align:1px}
+.rule-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;box-shadow:var(--sh)}
+.rule-card .t{font-weight:700;color:var(--green-d);margin-bottom:8px;display:flex;align-items:center;gap:8px;font-size:.97rem}
+.rule-card ul{padding-left:1.2em;font-size:.88rem;margin:0}
+.rule-card li{margin:.32em 0}
+.icon-chip{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:9px;background:var(--green-l);
+  color:var(--green-d);font-size:1rem;flex:none}
+
+/* ---------- 任务卡 ---------- */
+.tcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);display:flex;flex-direction:column}
+.tcard .th{padding:12px 16px;color:#fff;font-weight:700;font-size:1rem}
+.tcard .tb{padding:14px 16px;font-size:.88rem;flex:1}
+.tcard .tb ol{padding-left:1.25em;margin:.3em 0}
+.tcard .tf{background:#f6f5f0;border-top:1px dashed var(--line);padding:10px 16px;font-size:.82rem;color:var(--ink-2)}
+.tcard .tf b{color:var(--clay)}
+
+/* ---------- 清单 ---------- */
+.check{display:flex;gap:10px;align-items:flex-start;padding:7px 0;font-size:.89rem;border-bottom:1px dashed #eee;cursor:pointer}
+.check:last-child{border-bottom:0}
+.check input{width:19px;height:19px;accent-color:var(--green);margin-top:2px;flex:none}
+.check.done span{text-decoration:line-through;color:var(--ink-3)}
+.checklist-bar{display:flex;align-items:center;gap:10px;font-size:.82rem;color:var(--ink-3);padding:10px 0 0}
+.bar{flex:1;height:7px;background:var(--line);border-radius:4px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--green);width:0;transition:width .25s}
+.countcard{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;box-shadow:var(--sh)}
+.countrow{display:flex;justify-content:space-between;font-size:.88rem;padding:5px 0;border-bottom:1px dashed #eee}
+.countrow:last-child{border-bottom:0}
+.countrow b{color:var(--green-d)}
+
+/* ---------- 应急 ---------- */
+.emg{background:#fff;border:2px solid var(--clay);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+.emg .eh{background:var(--clay);color:#fff;padding:10px 16px;font-weight:700;display:flex;align-items:center;gap:8px}
+.emg .eb{padding:14px 16px}
+.emggrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.emgitem{border:1px solid var(--line);border-radius:12px;padding:11px 13px;background:#fdfbf9}
+.emgitem .t{font-weight:700;color:#8d4419;font-size:.92rem;margin-bottom:5px}
+.emgitem ol{padding-left:1.2em;margin:0;font-size:.86rem}
+.emgitem li{margin:.28em 0}
+.phonebig{display:flex;gap:9px;flex-wrap:wrap;margin:10px 0 0}
+.phonebig a{background:#fff;color:#8d4419;border:1px solid #f0d4bd;border-radius:12px;padding:9px 14px;
+  font-weight:700;text-decoration:none;font-size:.95rem;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+.fillin{border-bottom:1px dashed #b9c2bb;display:inline-block;min-width:110px}
+
+/* ---------- 折叠 ---------- */
+details{border:1px solid var(--line);border-radius:14px;background:#fff;margin-bottom:10px;overflow:hidden}
+details summary{cursor:pointer;padding:12px 15px;font-weight:600;font-size:.95rem;background:#faf9f5;list-style:none;display:flex;gap:8px;align-items:center}
+details summary::-webkit-details-marker{display:none}
+details summary:before{content:"▸";color:var(--green);transition:.2s}
+details[open] summary:before{transform:rotate(90deg)}
+details .dc{padding:13px 16px;font-size:.88rem}
+details .dc ul{padding-left:1.2em}
+
+/* ---------- 灯箱 ---------- */
+.lb{position:fixed;inset:0;background:rgba(12,18,14,.93);z-index:200;display:none;align-items:center;justify-content:center;padding:14px}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:92vh;object-fit:contain;border-radius:8px}
+.lb .close{position:absolute;top:14px;right:16px;color:#fff;font-size:2rem;cursor:pointer;line-height:1}
+
+footer{margin-top:34px;background:#1e4b37;color:#cfe0d2;padding:22px 0;font-size:.82rem}
+footer a{color:#fff}
+footer .kv{color:#b9cdc2}
+
+#printOnly{display:none}
+
+/* ---------- 打印 ---------- */
+@media print{
+  html{font-size:11.5px}
+  body{background:#fff}
+  .app,header.top,footer,.lb{display:none !important}
+  #printOnly{display:block !important;padding:0}
+  #printOnly .ph{page-break-inside:avoid}
+}
+@media(max-width:640px){
+  .hero h1{font-size:1.45rem}
+  .wrap{padding:0 13px}
+  .qcell{border-right:0}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap topin">
+    <div class="brand">半山研学·行前提示<small>中班｜实走踩点版</small></div>
+    <nav class="navs">
+      <a href="#quick">速览</a>
+      <a href="#route">路线</a>
+      <a href="#points">点位</a>
+      <a href="#safe">安全</a>
+      <a href="#task">任务</a>
+      <a href="#prep">行前</a>
+      <a href="#emg">应急</a>
+    </nav>
+    <div class="tools">
+      <button class="tbtn" id="fontDown" title="缩小字号">A−</button>
+      <button class="tbtn" id="fontUp" title="放大字号">A+</button>
+      <button class="tbtn" id="printBtn" title="打印随身速查卡">打印</button>
+    </div>
+  </div>
+</header>
+
+<div class="app">
+
+<!-- ============ HERO ============ -->
+<div class="hero">
+  <div class="wrap">
+    <div class="badge">杭州 · 拱墅区 · 半山·龙山·虎山三园连通</div>
+    <h1>半山国家森林公园<br>中班户外研学 · 行前提示</h1>
+    <p class="lead">按老师实地踩点的 7 个点位一一配图导航：入口 → 停车场厕所 → 第一个路口 → 石阶上行 → 竹林岔路 → 台阶汇合 → 主线绿道。每一站都写清「怎么认路、怎么说、做什么、注意什么」，现场照着念就行。</p>
+    <div class="pills">
+      <div class="pill"><b>约 2.5 小时</b>含任务停留（不含入园/上车）</div>
+      <div class="pill"><b>中低强度</b>石阶＋竹林坡地，可缩短</div>
+      <div class="pill"><b>4—5 岁</b>牵手上行，不追求登顶</div>
+      <div class="pill"><b>7 个实走点位</b>2026-11 实拍</div>
+    </div>
+    <div class="cta">
+      <a class="btn" href="#points">看 7 个点位实拍 ↓</a>
+      <a class="btn ghost" href="#quick">60 秒速览卡</a>
+      <button class="btn ghost" id="printBtn2">打印随身速查卡</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ 速览 ============ -->
+<section id="quick" class="wrap">
+  <h2 class="sec"><span class="num">0</span>出发前 60 秒速览 <span class="tag">现场只记这五条就够</span></h2>
+  <p class="sub">带班老师出发前、集合时各看一遍；下面这页也可以单独打印随身带。</p>
+  <div class="quick">
+    <div class="qh">📌 随身速览 · 中班研学（杭州半山国家森林公园）<span>2026-11 踩点实走版</span></div>
+    <div class="qgrid">
+      <div class="qcell"><b><span class="ico">📍</span>集合点</b><span>南门广场·主入口（"半山国家森林公园 欢迎您"横幅处）。大巴停靠与撤离都在这里。</span></div>
+      <div class="qcell"><b><span class="ico">🚻</span>最近的厕所</b><span>出停车场即到，"公共厕所 TOILET"指示牌右转处。<b>入园第一件事先去洗手间。</b></span></div>
+      <div class="qcell"><b><span class="ico">💧</span>喝水点</b><span>自带水壶，<b>每 20–30 分钟</b>提醒一次；沿主线绿道有指示牌可指公厕与休息点。</span></div>
+      <div class="qcell"><b><span class="ico">🧭</span>最容易走错的点</b><span>第 3 站「第一个路口」与第 5 站「竹林岔路」。<br>这两处<b>必须停下点名</b>再走。</span></div>
+      <div class="qcell"><b><span class="ico">🚸</span>走失怎么办</b><span>孩子<b>原地蹲下不乱跑</b>。<br>老师原地喊名＋举班级牌；1 分钟内无果再沿原路回找，同时求助出入口值守点。</span></div>
+      <div class="qcell"><b><span class="ico">⛔</span>三条红线</b><span>① 园内<b>禁烟禁火</b><br>② <b>不投喂、不追赶</b>野生动物<br>③ <b>不折竹、不摘花、不挖土</b><br>（竹林里有红色警示牌）</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 路线 ============ -->
+<section id="route" class="wrap">
+  <h2 class="sec"><span class="num">1</span>路线总览与时间轴</h2>
+  <p class="sub">时间为建议值（按 4—5 岁孩子步速 + 每站任务停留估算），现场以孩子状态为准，宁可慢、不可赶。</p>
+
+  <div class="card pad" style="margin-bottom:14px">
+    <h4>一句话路线</h4>
+    <p class="kv" style="font-size:.94rem"><b>南门广场·主入口</b> →（停车场公共厕所）→ <b>第一个路口</b>（绿色指示牌·问樵处）→ <b>石阶上行</b>（竹林红牌）→ <b>竹林岔路口</b> → <b>台阶上行汇合</b>（主线绿道指示牌）→ <b>下行回到柏油绿道</b>（桥与路灯）→ 集合上车。单向不回头，孩子记路只记"牌子"。</p>
+    <hr class="sep">
+    <h4>强度三选一（按当天天气与孩子体力定，开学前一天定好）</h4>
+    <ul class="kv">
+      <li><b>A 精简版（约 1 小时）</b>：停车场厕所 → 主线绿道平段（柏油路、桥、路灯）→ 原路返回。全程无石阶，雨天/体力弱首选。</li>
+      <li><b>B 推荐版（约 2.5 小时）</b>：本网页 7 个点位全走一遍 —— 石阶上行、竹林岔路、台阶汇合。</li>
+      <li><b>C 保底版（约 1.5 小时）</b>：只到第 3 站"第一个路口"＋主线绿道平段＋山脚室内非遗点（半山泥猫馆），遇雷雨/暴雨预警即启用。</li>
+    </ul>
+  </div>
+
+  <div class="tl">
+    <div class="tlitem"><div class="t">08:30</div><div class="n">① 南门广场外 · 集合点名</div><div class="d">分组（4–5 人一组）、贴姓名贴、领任务卡、发水壶。<b>点名①</b></div></div>
+    <div class="tlitem"><div class="t">08:45</div><div class="n">② 入园 · 主入口步道</div><div class="d">看解说牌导览图，认"半山国家森林公园 欢迎您"横幅。<b>点名②</b></div></div>
+    <div class="tlitem"><div class="t">08:55</div><div class="n">③ 停车场 · 公共厕所（必去）</div><div class="d">洗手、补水、整队。认"公共厕所 TOILET"指示牌。<b>点名③</b></div></div>
+    <div class="tlitem hot"><div class="t">09:15</div><div class="n">④ 第一个路口（绿色指示牌·问樵处）</div><div class="d">全线路口分叉点：停下讲路线、做任务卡 A。<b>点名④ · 必停</b></div></div>
+    <div class="tlitem"><div class="t">09:35</div><div class="n">⑤ 石阶上行（竹林红牌）</div><div class="d">牵手逐级上台阶，读红色警示牌，认毛竹竹节。</div></div>
+    <div class="tlitem hot"><div class="t">10:05</div><div class="n">⑥ 竹林岔路口</div><div class="d">无路牌岔路：不擅自拐弯，任务卡 B（听声音、闻气味）。<b>点名⑤ · 必停</b></div></div>
+    <div class="tlitem"><div class="t">10:30</div><div class="n">⑦ 台阶上行 · 与竹林汇合</div><div class="d">"主线绿道"指示牌：龙山水榭 100m、游客中心 200m、公共停车场 200m、公共厕所 200m。<b>点名⑥</b></div></div>
+    <div class="tlitem"><div class="t">10:45</div><div class="n">⑧ 下行回到柏油绿道（桥·路灯）</div><div class="d">平缓总结分享、洗手、整队。任务卡 C 收尾。</div></div>
+    <div class="tlitem hot"><div class="t">11:15</div><div class="n">⑨ 集合上车</div><div class="d">回南门广场，清点人数、带回班级。<b>点名⑦（出园点清）</b></div></div>
+  </div>
+</section>
+
+<!-- ============ 点位 ============ -->
+<section id="points" class="wrap">
+  <h2 class="sec"><span class="num">2</span>七个实走点位 · 看图认路</h2>
+  <p class="sub">照片为 2026-11 踩点实拍。<b>「怎么认路」</b>一栏是给带队老师现场定位用的——照片里有什么，我们就找什么。</p>
+
+  <!-- 1 -->
+  <div class="pt" id="p1">
+    <div class="ph"><span class="badge-no">① 南门广场 · 主入口</span><img src="{{IMG_2844}}" alt="南门广场主入口：石板步道、园区解说牌、停车场指示牌与欢迎横幅" loading="lazy"><span class="badge-ph">点击放大看指示牌</span></div>
+    <div class="pb">
+      <h3>入口 · 全天的集合点与撤离点</h3>
+      <div class="loc">类型：集合/入园 · 地面平整宽石板 · 无人车混行段</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>正前方石板主步道直入园内，两侧木质解说牌（导览图＋景点介绍）。</li>
+          <li>"半山国家森林公园 欢迎您"横幅；黑色金属"内部车辆通道"指示牌；<b>P 停车标识</b>（发光字，文字现场再看）。</li>
+          <li>入园段与内部车辆通道相邻，<b>有人车混行</b>。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师这么说</div>
+        <p class="quote">"看，我们走进的这扇门写着『半山国家森林公园 欢迎您』。先在门口的地图上找一找——我们要去的竹林在哪个方向呀？"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务</div>
+        <ul><li>在入口导览图上<b>指一指</b>主绿道与竹林的位置（让孩子用手指"点"在图上）。</li>
+        <li>数一数解说牌上一共有几块图、几个景点名。</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li><b>点名①</b>：贴好姓名贴再入园；总人数/男生/女生分别记一次。</li>
+          <li>过内部车辆通道时<b>牵手、靠右、一次一组通过</b>，不让孩子在车道边跑。</li>
+          <li>入口是撤离点：<b>随时告诉孩子"走错了就回到有欢迎横幅的地方"</b>。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="pt" id="p2">
+    <div class="ph"><span class="badge-no">② 停车场 · 公共厕所</span><img src="{{IMG_2851}}" alt="停车场旁公共厕所指示牌：男女图标、TOILET 字样与右转箭头" loading="lazy"><span class="badge-ph">点击放大看指示牌</span></div>
+    <div class="pb">
+      <h3>最近的厕所（就是停车场）</h3>
+      <div class="loc">类型：服务点 · 入园后第一站 · 洗手/补水/整队</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>绿色+白色指示牌：竖排"公共厕所"＋男女图标＋"TOILET"＋<b>右转箭头</b>。</li>
+          <li>旁边是沥青车行道、一棵大树和一只大号垃圾桶。</li>
+          <li>此点是<b>离停车场最近的一处公厕</b>；主线绿道牌上还标有"公共厕所 200m"。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师这么说</div>
+        <p class="quote">"出停车场我们先去洗手间。洗小手要搓够 20 秒哦——一起数：一、二、三……再看牌子，'TOILET'是英语的厕所，它在告诉我们往哪边走。"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务</div>
+        <ul><li>找一找：牌子上有几种颜色？几个箭头？箭头指的方向和我们走的一样吗？</li>
+        <li>看看路边的垃圾桶：我们手里的纸巾要丢进哪一个？（<b>垃圾不落地</b>，垃圾袋带回园所）</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li><b>入厕必须分组陪同</b>：男生一组、女生一组，老师分别带到门口，<b>不把孩子单独留在外面</b>。</li>
+          <li>洗手台人多时分组轮流，避免孩子着急拥挤。</li>
+          <li>此点人流大、车来车往：<b>不站在车道边</b>拍照集合。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="pt" id="p3">
+    <div class="ph"><span class="badge-no">③ 第一个路口</span><img src="{{IMG_2849}}" alt="第一个路口：绿色多向指示牌指向问樵处，石板路分叉，行人经过" loading="lazy"><span class="badge-ph">点击放大看指示牌</span></div>
+    <div class="pb">
+      <h3>第一个路口 · 全程第一处分叉</h3>
+      <div class="loc">类型：路口/讲解点 · 绿色多向指示牌 · 石板路</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>绿色多向指示牌：<b>右向一块写着"问樵处"</b>（牌面除中文外还有英文等外文），左侧还挂着 <b>3 块向左</b>的牌子。</li>
+          <li>石板路从牌前继续伸进竹林；路右侧有一块<b>花岗岩标柱（石碑）</b>，左侧远处可见石阶。</li>
+          <li>照片里已有大人带孩子经过——<b>这里就是最容易走错的点</b>。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师怎么说</div>
+        <p class="quote">"这块绿色的牌子在告诉我们路——有箭头的地方就是路标。'问樵处'的'樵'是砍柴的人，意思是向住在山里的老人问路。我们把小手牵好，跟着牌子走。"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务（任务卡 A：标识与方向）</div>
+        <ul><li>数一数这块路牌<b>一共有几块牌子、几个箭头</b>（右边 1 块写着"问樵处"，左边还有 3 块）。</li>
+        <li>找"公共厕所"三个字在第几站牌子上出现过（预告第 7 站）。</li>
+        <li>做一次"路标小侦探"：走过后每到一块牌子就问"这块牌子在指什么？"</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li><b>必停、必点名</b>（点名④）。分组站好、讲完路线再走。</li>
+          <li>队伍过路口排成<b>牵手链</b>：老师前后各一人，中间老师牵孩子。</li>
+          <li>路口车辆与自行车多，<b>停下先看两边再过</b>。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="pt" id="p4">
+    <div class="ph"><span class="badge-no">④ 石阶上行</span><img src="{{IMG_2848}}" alt="穿过竹林的连续石阶，台阶上有青苔，竹林中挂着红色警示牌" loading="lazy"><span class="badge-ph">点击放大看红牌</span></div>
+    <div class="pb">
+      <h3>石阶上行 · 起步爬升</h3>
+      <div class="loc">类型：爬升段 · 石阶（带青苔）· 毛竹林</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>连续石阶穿过竹林与乔木；<b>石面有青苔</b>，坡度明显。</li>
+          <li>两侧毛竹成片，竹干笔直、<b>有明显竹节</b>。</li>
+          <li>竹林里挂着<b>红色警示牌，白字写着"禁止挖掘"</b>。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师怎么说</div>
+        <p class="quote">"台阶上绿绿的一层是苔藓，像给石头穿了件棉袄——踩上去有点滑，所以我们一级一级慢慢走。看这根竹子，它身上一圈一圈的，像竹子的'腰带'，那叫竹节。"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务（任务卡 B：竹林观察）</div>
+        <ul><li>摸一摸竹节："竹子的腰带硬不硬？"</li>
+        <li>看竹皮上的一层白粉："这是竹子自己涂的'防晒霜'哦。"</li>
+        <li>数一数脚下落叶有几层：落叶多说明这里的土是活的。</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点（本次最大风险点）</div>
+        <ul>
+          <li><b>一步一台阶</b>：不跳级、不并排、不推挤、不跑跳。</li>
+          <li><b>牵手</b>：孩子一只手牵老师，另一只手可扶栏杆；老师走在<b>孩子下坡侧的前方</b>。</li>
+          <li>青苔＋落叶＝滑：<b>鞋底必须防滑</b>（凉鞋、拖鞋一律不允许）。</li>
+          <li>把红牌读给孩子听并解释：<b>不折竹、不摘叶、不挖土</b>。</li>
+          <li>每上 10–15 级<b>停一次</b>，问"累不累"，让孩子自己说要不要歇。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="pt" id="p5">
+    <div class="ph"><span class="badge-no">⑤ 竹林岔路口</span><img src="{{IMG_2847}}" alt="坡地上的茂密毛竹林，地面厚厚的落叶与松针，坡面向一侧倾斜" loading="lazy"><span class="badge-ph">点击放大看地面</span></div>
+    <div class="pb">
+      <h3>竹林岔路口 · 向上或向左</h3>
+      <div class="loc">类型：岔路 · 无路牌 · 坡地松针落叶层</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>坡地上成片的毛竹，竹皮光滑、带白粉；<b>地面厚厚一层落叶与松针</b>。</li>
+          <li>坡面向一侧倾斜，光斑斑驳；<b>没有明显的路牌</b>。</li>
+          <li>向上可继续走竹林登顶方向，向左是另一条路——<b>孩子分不清，非常容易走错</b>。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师怎么说</div>
+        <p class="quote">"这里有两条路，我们不走岔的那一条——跟着前面的老师走。手放在前面老师的手上，一个跟着一个。"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务（任务卡 C：声音与气味）</div>
+        <ul><li><b>听</b>：闭上眼睛 30 秒，说出你听到的 3 种声音（风、鸟、脚步、落叶）。</li>
+        <li><b>闻</b>：闻一闻泥土、竹叶、树皮的气味，说说像什么。</li>
+        <li><b>找</b>：落叶里找小虫咬过的洞、羽毛、树枝，找到了不捡起来，<b>指给老师看</b>。</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li><b>必停、必点名</b>（点名⑤）：老师先确认方向，再让队伍通过。</li>
+          <li><b>不擅自拐弯</b>：反复强调"只走有老师的那条路"。</li>
+          <li>竹林遮挡视线，<b>前后间距不超过两个身位</b>，老师回头就能看见每一个孩子。</li>
+          <li>坡地松针落叶滑：<b>不跑、不跳、不在坡上玩滑梯</b>。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="pt" id="p6">
+    <div class="ph"><span class="badge-no">⑥ 台阶上行 · 与竹林汇合</span><img src="{{IMG_2845}}" alt="主线绿道指示牌：龙山水榭100米、游客中心200米、公共停车场200米、公共厕所200米，旁边是继续上行的石阶" loading="lazy"><span class="badge-ph">点击放大看四个箭头</span></div>
+    <div class="pb">
+      <h3>台阶上行 · 与竹林汇合（"主线绿道"牌）</h3>
+      <div class="loc">类型：汇合点/方向锚点 · 石柱指示牌 · 台阶旁</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>木柱＋深色面板：<b>"半山森林公园绿道 · 主线绿道"</b>。</li>
+          <li>牌上四个方向：<b>→ 龙山水榭 100m、↑ 游客中心 200m、← 公共停车场 200m、↑ 公共厕所 200m</b>。</li>
+          <li>牌子右侧是继续上行的石阶；牌下沿有 <b>5 个红色禁令图标</b>。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师这么说</div>
+        <p class="quote">"我们回到'主线绿道'啦！这是今天最重要的路标——记住它，回来的路和上山的路都在这块牌子这里。你能找到写着'公共厕所'的那一行吗？箭头指的方向和我们要回去的方向一样吗？"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务</div>
+        <ul><li>找出 4 个箭头分别指哪里，比较"公厕"和"停车场"两个方向有什么不同。</li>
+        <li>数一数牌子上有 5 个红色禁令标志，说说看哪个最好认。</li>
+        <li>认方位：向上 / 向下 / 左 / 右——这是幼儿园里学方位的好机会。</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li><b>全员到齐再走</b>（点名⑥）：这是撤离路线的"锚点"，<b>人齐了才继续</b>。</li>
+          <li>台阶与柏油路交界处容易<b>踩空</b>，老师先下、孩子在中间、老师最后下。</li>
+          <li>牌子旁是路口：不在指示牌下停留聚集，<b>靠边站</b>。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7 -->
+  <div class="pt" id="p7">
+    <div class="ph"><span class="badge-no">⑦ 下行回到主线绿道</span><img src="{{IMG_2846}}" alt="仿古路灯与挂件、跨水面的石栏杆、柏油绿道与对岸建筑" loading="lazy"><span class="badge-ph">点击放大看桥与灯</span></div>
+    <div class="pb">
+      <h3>下行回到主线绿道（桥 · 路灯）</h3>
+      <div class="loc">类型：下山平缓段 · 柏油路 · 有桥与护栏</div>
+      <div class="box look"><div class="bt">👀 照片里有什么</div>
+        <ul>
+          <li>两排<b>仿古路灯</b>，灯柱上挂着装饰挂件；路面是<b>柏油（沥青）</b>，与石板路手感不同。</li>
+          <li>左侧是<b>跨水面的石栏杆（桥）</b>与花池，右侧是园区建筑与围栏。</li>
+          <li>此段平缓好走，是<b>做总结分享、洗手、整队上车</b>的最佳位置。</li>
+        </ul>
+      </div>
+      <div class="box say"><div class="bt">🗣 带班老师这么说</div>
+        <p class="quote">"我们下山啦！脚下的路从石板变成黑黑的柏油，声音也不一样了——石板是'哒哒'，柏油是'噗噗'。看桥上水里有没有倒影呀？"</p>
+      </div>
+      <div class="box task"><div class="bt">🔎 研学任务</div>
+        <ul><li>比一比：石板路和柏油路，<b>踩上去哪个软？哪个声音响？</b></li>
+        <li>桥上找倒影、找水面上的落叶，比一比哪片叶子最大。</li>
+        <li>总结分享：今天我们一共看见了几块路牌？（提示：绿色那块 + 主线绿道那块 + 厕所那块）</li></ul>
+      </div>
+      <div class="box safe"><div class="bt">⚠️ 安全要点</div>
+        <ul>
+          <li>柏油路下坡快，<b>慢走、不跑</b>；下坡牵手改成<b>前后手搭肩膀</b>。</li>
+          <li>桥有护栏：<b>不趴在栏杆上、不攀爬、不把身体探出去</b>。</li>
+          <li>分享环节统一在绿化带外侧，<b>不坐车道、不追跑</b>。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 安全 ============ -->
+<section id="safe" class="wrap">
+  <h2 class="sec"><span class="num">3</span>安全要点</h2>
+  <p class="sub">先看红线，再看分项。带班老师人手一条，出发前互相念一遍。</p>
+
+  <div class="redline">
+    <div class="t">⛔ 三条红线（违反即停）</div>
+    <ul class="kv" style="margin:0">
+      <li><b>禁烟禁火</b>：公园设有森林防火监控；不携带火种、不玩打火机、不用明火（含自带蜡烛香烛）。</li>
+      <li><b>不投喂、不追赶</b>野生动物：园内记录野生动物 27 目 58 科 166 种，猛禽常在高树活动。</li>
+      <li><b>不折竹、不摘花、不挖土、不捡地上的果子吃</b>（竹林内有红色警示牌，务必给孩子读一遍）。</li>
+    </ul>
+    <div class="laws">
+      <div class="law"><i>1</i>不离队伍，老师身边三步内</div>
+      <div class="law"><i>2</i>上下台阶一律牵手</div>
+      <div class="law"><i>3</i>不推挤、不并排、不跑跳</div>
+      <div class="law"><i>4</i>青苔石阶慢慢走</div>
+      <div class="law"><i>5</i>路口停下再点名</div>
+      <div class="law"><i>6</i>不折竹不摘花不挖土</div>
+      <div class="law"><i>7</i>不捡地上的果子吃</div>
+      <div class="law"><i>8</i>不摸不喂野生动物</div>
+      <div class="law"><i>9</i>不带火种、不吸烟</div>
+      <div class="law"><i>10</i>走失原地等，不自己找路</div>
+    </div>
+  </div>
+
+  <div class="sec-list" style="margin-top:14px">
+    <div class="rule-card"><div class="t"><span class="icon-chip">🪜</span>台阶与坡地（今天的主要风险）</div>
+      <ul>
+        <li>孩子<b>单手牵老师</b>，不松手；下坡时老师站在孩子<b>前下方</b>。</li>
+        <li>石阶带青苔、地面有落叶与松针，<b>禁止穿凉鞋、拖鞋、帆布鞋</b>；运动鞋最佳。</li>
+        <li>不跳级、不并排走、不在台阶上追跑；孩子说累就<b>原地停一停</b>再走。</li>
+        <li>竹林岔路无路牌：<b>停—点名—确认方向—再出发</b>，四步固定流程。</li>
+      </ul>
+    </div>
+    <div class="rule-card"><div class="t"><span class="icon-chip">🔎</span>防走失（四—五岁高发）</div>
+      <ul>
+        <li><b>人少的地方绝不落单</b>：厕所、岔路口、台阶中途都必须有老师。</li>
+        <li>孩子统一穿<b>醒目颜色</b>（黄色/橙色外套）、<b>姓名贴</b>写上班级与老师手机号。</li>
+        <li>教孩子一条保命指令：<b>"站着不动、原地等、看到老师就举手"</b>，入园第一天反复演练。</li>
+        <li>走失处置：<b>孩子原地蹲下不乱跑</b> → 老师原地喊名并举起班级牌 → 1 分钟无果 → 一名老师原地守候，另一名沿原路回找 → 求助公园出入口值守点 → 10 分钟无果立即报警。</li>
+        <li>手机统一调成<b>最大音量</b>，老师手机号互相存好；不让孩子独自拿手机。</li>
+      </ul>
+    </div>
+    <div class="rule-card"><div class="t"><span class="icon-chip">🌦</span>天气与体力（出发前看两遍天气）</div>
+      <ul>
+        <li><b>雷雨/暴雨/台风预警 → 直接启用 C 保底版或改期</b>，不在林下停留。</li>
+        <li>高温预警：提前 20–30 分钟出发，缩短竹林段，<b>每 20 分钟补水一次</b>（少量多次，别等口渴）。</li>
+        <li>秋冬山顶与林间风大，<b>每人带一件外套</b>；出汗后先擦干再吹风。</li>
+        <li>雨天石阶极滑，<b>直接改走柏油主线绿道</b>（主线绿道牌 → 游客中心/公共厕所方向都有平缓路段）。</li>
+        <li>体力差的宝宝：老师<b>背负</b>上坡，提前在第 5 站休息一次；宁可少走，不要硬撑。</li>
+      </ul>
+    </div>
+    <div class="rule-card"><div class="t"><span class="icon-chip">🧼</span>卫生与礼仪</div>
+      <ul>
+        <li>入园后<b>先洗手</b>（第 2 站），吃饭前再洗手一次；纸巾自备、湿巾随身。</li>
+        <li><b>垃圾不落地</b>：纸巾、果皮统一入袋，垃圾袋带回园所，不留在园内。</li>
+        <li>不捡地上的果子吃（园区常有掉落物，可能有虫或农药）；不喝不明来源的水。</li>
+        <li>孩子想摸植物时，先问老师"可以摸吗"，养成<b>先观察、再触碰</b>的习惯。</li>
+      </ul>
+    </div>
+    <div class="rule-card"><div class="t"><span class="icon-chip">📣</span>组织与点名（四点四清）</div>
+      <ul>
+        <li><b>分组 4–5 人一组，每组一名组长（成人或大孩子）</b>，组内手牵手。</li>
+        <li>点名 7 次：① 集合 ② 入园 ③ 厕所后 ④ 第一个路口 ⑤ 竹林岔路 ⑥ 主线绿道 ⑦ 出园上车。</li>
+        <li>每次点名<b>念名字＋看脸</b>，不能只举手。</li>
+        <li>收尾流程：整队 → 洗手 → 分享 → 带回班级 → 交还姓名贴与任务卡 → 清点物资。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 任务 ============ -->
+<section id="task" class="wrap">
+  <h2 class="sec"><span class="num">4</span>研学任务卡（人手一张 / 每组一张）</h2>
+  <p class="sub">围绕本次实走路线设计，全部可在路边完成，5–8 分钟一站。<b>四—五岁的重点是"说"和"指"，不用写字。</b></p>
+
+  <div class="grid g3">
+    <div class="tcard">
+      <div class="th" style="background:#2f6b4f">任务卡 A · 标识与方向</div>
+      <div class="tb">
+        <ol>
+          <li>找一找：从入口到竹林，一共看见几块<b>绿色的路牌</b>？每块牌子上有几个箭头？</li>
+          <li>读一读：牌子上有没有写着<b>"公共厕所"</b>的那一行？在第几块牌子上？</li>
+          <li>指一指：这块牌子指向的方向，和我们要走的方向一样吗？</li>
+          <li>说一说：如果迷路了你该找什么？——<b>"找牌子"</b>。</li>
+        </ol>
+      </div>
+      <div class="tf">回家说什么：<b>"今天有块绿色牌子，箭头指的方向我们去过了。"</b></div>
+    </div>
+
+    <div class="tcard">
+      <div class="th" style="background:#7c8b4e">任务卡 B · 竹林观察</div>
+      <div class="tb">
+        <ol>
+          <li>摸一摸：摸到竹节了吗？它硬不硬？像不像竹子的<b>腰带</b>？</li>
+          <li>看一看：竹子上白白的一层是什么？（竹子自己的"防晒霜"）</li>
+          <li>数一数：脚下落叶有几层？厚厚一层说明这里的土很"舒服"。</li>
+          <li>找一找：落叶里的虫洞、羽毛、树枝——<b>指给老师看，不要捡</b>。</li>
+        </ol>
+      </div>
+      <div class="tf">回家说什么：<b>"毛竹的竹节像腰带，地上落叶有好多层。"</b></div>
+    </div>
+
+    <div class="tcard">
+      <div class="th" style="background:#2b6a8f">任务卡 C · 声音与气味</div>
+      <div class="tb">
+        <ol>
+          <li>听一听：闭上眼睛 30 秒，说出你听到的 <b>3 种声音</b>（风、鸟、脚步、落叶）。</li>
+          <li>闻一闻：泥土、竹叶、树皮的气味像什么？</li>
+          <li>比一比：石板路和柏油路，<b>踩上去哪个软、哪个声音响</b>？</li>
+          <li>找一找：桥上的水里，<b>哪片落叶最大</b>？</li>
+        </ol>
+      </div>
+      <div class="tf">回家说什么：<b>"我听见了三种山里的声音。"</b></div>
+    </div>
+  </div>
+
+  <div class="card pad" style="margin-top:14px">
+    <h4>返园延伸（带回教室的三个小任务）</h4>
+    <ul class="kv">
+      <li>把捡到的落叶做成<b>自然观察记录</b>，接《秋天的颜色》主题。</li>
+      <li>把任务卡上的"路牌地图"画出来：今天经过的 3 块牌子分别写了什么？</li>
+      <li>认识半山：<b>半山本名皋亭山</b>，"半山观桃、蚕花庙会、半山泥猫"是这里的老习俗；园里还有<b>半山泥猫非遗体验馆</b>，可另安排一次。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 行前 ============ -->
+<section id="prep" class="wrap">
+  <h2 class="sec"><span class="num">5</span>行前清单</h2>
+  <p class="sub">教师物资可勾选（勾选状态会存在本机，下次打开还在）；家长须知提前一天发群。</p>
+
+  <div class="grid g2">
+    <div class="countcard">
+      <h3>📦 教师物资（出发前 30 分钟打勾）</h3>
+      <div id="listA"></div>
+      <div class="checklist-bar"><span id="barA-text">0 / 0</span><span class="bar"><i id="barA"></i></span></div>
+    </div>
+    <div class="countcard">
+      <h3>👨‍👩‍👧 家长须知（提前一天发群）</h3>
+      <ul class="kv">
+        <li><b>鞋</b>：必须运动鞋（防滑、包脚）；凉鞋、拖鞋、拖鞋凉鞋一律不行。</li>
+        <li><b>衣</b>：长裤长袖（防蚊防划），<b>穿一件亮色上衣</b>（黄/橙）方便老师找人；备一件薄外套（林间风大）。</li>
+        <li><b>带</b>：贴好姓名贴、装好水杯（不要玻璃瓶）、穿便于活动的鞋袜；<b>不携带</b>火种、玩具、零食散装食品。</li>
+        <li><b>说</b>：告诉孩子"今天有石台阶，全程要牵着老师的手走；走丢了就站在原地不动等老师"。</li>
+        <li><b>报</b>：如有发热、腹泻、过敏、哮喘、近期蚊虫叮咬史，<b>提前一天</b>告知老师；带好常用药。</li>
+        <li><b>禁</b>：入园前先上厕所、喝水；请不要给孩子穿带绳子的帽衫与长围巾。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid g2" style="margin-top:14px">
+    <div class="countcard">
+      <h3>☑️ 现场打卡（勾选会保存）</h3>
+      <div id="listB"></div>
+      <div class="checklist-bar"><span id="barB-text">0 / 0</span><span class="bar"><i id="barB"></i></span></div>
+      <p class="kv" style="font-size:.8rem;margin-top:8px">提醒：打卡勾选 ≠ 点名。点名仍按"念名字＋看脸"执行。</p>
+    </div>
+    <div class="countcard">
+      <h3>📞 出发前须向园方确认（不能凭空填，现场记下来）</h3>
+      <ul class="kv">
+        <li>园方<b>服务/救援电话</b>与办公时间（公开资料未载，现场记下后填入下方应急卡）。</li>
+        <li><b>大巴停靠位</b>与掉头方式（现场有"内部车辆通道"标识，需确认大巴能否停靠）。</li>
+        <li>园内<b>公厕与饮水点</b>分布（已确认最近的一处＝停车场旁；主线绿道牌标示公厕 200m）。</li>
+        <li>当日是否有<b>临时封闭、限流或大型活动</b>（山脚非遗市集、无人机配送航线等）。</li>
+        <li><b>山脚平缓坡道</b>走向（保底版 C 用）。</li>
+        <li>门票/开放时间（开放式城市山地公园，望宸阁是否单独售票以园方公告为准）。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 应急 ============ -->
+<section id="emg" class="wrap">
+  <h2 class="sec"><span class="num">6</span>应急处置卡</h2>
+  <p class="sub">建议单独打印一张随身带。电话处请在出发前填好真实号码。</p>
+
+  <div class="emg">
+    <div class="eh">🆘 应急处置卡 · 杭州半山国家森林公园（中班研学）</div>
+    <div class="eb">
+      <div class="phonebig">
+        <a href="tel:110">报警 110</a>
+        <a href="tel:120">急救 120</a>
+        <a href="tel:119">消防 119</a>
+      </div>
+      <p class="kv" style="margin-top:10px">
+        带班老师：<span class="fillin">姓名／电话</span>　
+        班级负责人：<span class="fillin">姓名／电话</span>　
+        园所值班室：<span class="fillin">电话</span>　
+        园方服务台：<span class="fillin">电话</span>
+      </p>
+      <div class="emggrid" style="margin-top:12px">
+        <div class="emgitem"><div class="t">👤 走失</div><ol>
+          <li>孩子<b>原地蹲下不乱跑</b>，老师原地喊名、举班级牌。</li>
+          <li>1 分钟无果：一人守原地、一人<b>沿原路回找</b>（重点：第 3 站路口、第 5 站岔路、主线绿道牌）。</li>
+          <li>求助公园出入口值守点／园方服务台。</li>
+          <li>10 分钟无果：报警 110，说明入口、路线、孩子衣着。</li>
+        </ol></div>
+        <div class="emgitem"><div class="t">🦶 摔伤 / 擦伤</div><ol>
+          <li>先看能不能走：<b>能动 → 扶到安全处坐下</b>；不能动/疑似骨折 → 不搬动、就地垫高并叫 120。</li>
+          <li>擦伤：清水冲洗 → 碘伏棉签 → 创可贴（物资里带）。</li>
+          <li>头部磕碰：<b>立即送医</b>，当天告知家长与园所。</li>
+        </ol></div>
+        <div class="emgitem"><div class="t">⛈ 雷雨</div><ol>
+          <li>听到雷声立刻<b>离开林下、竹林和高树</b>，往开阔的柏油路面撤。</li>
+          <li>不要在大树、灯柱、指示牌下停留（照片里的竹子、路灯都容易招雷）。</li>
+          <li>点清人数、就近到<b>建筑物或管理用房</b>避雨，雨停再走。</li>
+          <li>预警天气直接启用 C 保底版或改期。</li>
+        </ol></div>
+        <div class="emgitem"><div class="t">🥵 中暑 / 脸色不对</div><ol>
+          <li>移到阴凉处、解开衣领、<b>少量多次补水</b>（不要一次猛灌）。</li>
+          <li>物理降温：扇风、擦汗、凉毛巾敷额头。</li>
+          <li>情况不缓解或叫不醒 → <b>120</b>，并通知家长与园所。</li>
+        </ol></div>
+        <div class="emgitem"><div class="t">🐜 虫咬 / 蜂虫</div><ol>
+          <li>普通蚊虫叮咬：清水洗净 → 炉甘石洗剂/清凉油，有过敏史的提前用药。</li>
+          <li><b>蜂蜇</b>：先刮掉蜂刺（不要揉搓），冷敷，<b>呼吸困难立刻 120</b>。</li>
+          <li>发现<b>蜱虫</b>附着：不要硬拔，用镊子夹住靠近皮肤处缓慢拔出，消毒并就医。</li>
+          <li>全程<b>不投喂、不拍打</b>动物。</li>
+        </ol></div>
+        <div class="emgitem"><div class="t">😰 情绪崩溃 / 哭闹不止</div><ol>
+          <li>蹲下与孩子平视，先处理情绪再谈道理；给"喝水、休息、抱一抱"三个选项。</li>
+          <li>安排一名老师陪在旁边，其余孩子由老师带着<b>继续前移</b>（避免全队被拖住）。</li>
+          <li>允许<b>原路返回</b>到柏油路坐一会儿，不是失败，是正确选择。</li>
+        </ol></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 附：进阶线与说明 ============ -->
+<section id="extra" class="wrap">
+  <h2 class="sec"><span class="num">7</span>附：另一条线与本网页的来历</h2>
+  <div class="grid g2">
+    <div class="card pad">
+      <h4>🔀 备选：望宸阁登顶线（本网页不走，但老师要知道）</h4>
+      <p class="kv">本网页按<b>实踩的主线绿道·竹林线</b>编写。园区另有更经典的登顶线：
+        南门广场 → 绿溪亭 → 临溪轩 → 翠峰阁 → 佛手樟 → 望宸阁（主峰顶，海拔约 280 米）→ 半山娘娘庙遗址 → 半山堂 → 半山娘娘庙 → 吟风亭 → 出园。</p>
+      <ul class="kv">
+        <li>望宸阁：5 层仿古楼阁（2017 年建成），一层有《半山盛景图》瓯塑，阁内有电梯。</li>
+        <li>望宸阁平台风大，<b>勿奔跑、勿倚栏探身</b>；山顶一带可扫码点单。</li>
+        <li>公开报道口径：山脚步行至望宸阁约 40 分钟；小学生徒步登顶约 2 小时——<b>4—5 岁孩子按 B 版 2.5 小时以内安排更稳妥</b>。</li>
+        <li>如本次实走觉得轻松，下次可组织"望宸阁版"（单程登顶一次，不走回头路）。</li>
+      </ul>
+    </div>
+    <div class="card pad">
+      <h4>📌 本网页的信息来源与口径</h4>
+      <ul class="kv">
+        <li><b>照片与点位顺序</b>：2026-11 教师实地踩点实拍（本网页 7 张图）。</li>
+        <li><b>园区公开信息</b>：拱墅区政府官网《杭州半山国家森林公园》；杭州网《半山国家森林公园绘就生态新图景》（2025-09-26）；浙江在线《杭州推出城市山地景区低空外卖接力送》（2026-10-29）；都市快报（2025-11-17）；中国教育在线《杭州市北秀小学"走读半山"》（2026-04-02）。</li>
+        <li><b>口径差异</b>：园区面积有"约 172 公顷"与"852.91 公顷"两种说法；望宸阁高度有 42 米与 45 米两种说法，<b>本网页不取单一数字作结论</b>。</li>
+        <li><b>留空项</b>：门票、开放时间、园方救援电话等公开资料未载明的，一律列入"出发前须确认"，<b>不猜、不填</b>。</li>
+        <li>配套文件：同目录《半山国家森林公园秋游方案.md》《半山国家森林公园秋游路线图.png》。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</div><!-- /.app -->
+
+<!-- ============ 打印专用：随身速查卡 ============ -->
+<div id="printOnly">
+  <h2 style="font-size:15pt;margin:0 0 2px">半山国家森林公园 · 中班研学随身速查卡（2026-11 实走踩点版）</h2>
+  <p style="font-size:9pt;color:#555;margin:0 0 8px">集合点：南门广场·主入口（"欢迎您"横幅处）｜全程约 2.5h｜强度 中低（石阶+竹林）｜对象 4—5 岁</p>
+  <table style="width:100%;border-collapse:collapse;font-size:9pt">
+    <thead><tr style="background:#eef3ee">
+      <th style="border:1px solid #ccc;padding:3px 4px;text-align:left;width:26px">站</th>
+      <th style="border:1px solid #ccc;padding:3px 4px;text-align:left;width:110px">点位</th>
+      <th style="border:1px solid #ccc;padding:3px 4px;text-align:left;width:150px">怎么认路</th>
+      <th style="border:1px solid #ccc;padding:3px 4px;text-align:left">现场任务与话术</th>
+      <th style="border:1px solid #ccc;padding:3px 4px;text-align:left;width:190px">安全要点</th>
+    </tr></thead>
+    <tbody>
+      <tr><td style="border:1px solid #ccc;padding:4px">①</td><td style="border:1px solid #ccc;padding:4px">南门广场·主入口</td><td style="border:1px solid #ccc;padding:4px">"欢迎您"横幅、木质解说牌、P 停车牌</td><td style="border:1px solid #ccc;padding:4px">在导览图上指一指竹林位置；数解说牌</td><td style="border:1px solid #ccc;padding:4px">点名①；内部车辆通道牵手靠右通过</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">②</td><td style="border:1px solid #ccc;padding:4px">停车场·公共厕所</td><td style="border:1px solid #ccc;padding:4px">"公共厕所 TOILET"牌＋右转箭头</td><td style="border:1px solid #ccc;padding:4px">洗手（搓 20 秒）、读英文标识</td><td style="border:1px solid #ccc;padding:4px">男女分组分别陪同；不在车道边集合</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">③</td><td style="border:1px solid #ccc;padding:4px">第一个路口</td><td style="border:1px solid #ccc;padding:4px">绿色指示牌"问樵处"（右1块＋左3块）、花岗岩标柱</td><td style="border:1px solid #ccc;padding:4px">任务卡 A：数牌子与箭头</td><td style="border:1px solid #ccc;padding:4px">必停、必点名；牵手链过路口</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">④</td><td style="border:1px solid #ccc;padding:4px">石阶上行</td><td style="border:1px solid #ccc;padding:4px">青苔石阶、成片毛竹、竹林红牌"禁止挖掘"</td><td style="border:1px solid #ccc;padding:4px">任务卡 B：摸竹节、看竹皮白粉、数落叶层</td><td style="border:1px solid #ccc;padding:4px">一步一台阶、牵手、不跳级；运动鞋；读红牌</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">⑤</td><td style="border:1px solid #ccc;padding:4px">竹林岔路口</td><td style="border:1px solid #ccc;padding:4px">坡地毛竹、厚落叶松针、<b>无路牌</b></td><td style="border:1px solid #ccc;padding:4px">任务卡 C：闭眼听 3 种声音、闻气味</td><td style="border:1px solid #ccc;padding:4px">必停、必点名；不擅自拐弯；间距≤2 个身位</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">⑥</td><td style="border:1px solid #ccc;padding:4px">台阶上行·汇合</td><td style="border:1px solid #ccc;padding:4px">"主线绿道"牌：龙山水榭100m/游客中心200m/公共停车场200m/公共厕所200m</td><td style="border:1px solid #ccc;padding:4px">找方向、数禁令图标</td><td style="border:1px solid #ccc;padding:4px">人齐再走；台阶交界处易踩空，靠边站</td></tr>
+      <tr><td style="border:1px solid #ccc;padding:4px">⑦</td><td style="border:1px solid #ccc;padding:4px">下行·柏油绿道</td><td style="border:1px solid #ccc;padding:4px">仿古路灯与挂件、石栏杆桥</td><td style="border:1px solid #ccc;padding:4px">比石板与柏油的手感与声音；桥上找倒影</td><td style="border:1px solid #ccc;padding:4px">下坡慢走；不趴栏杆；分享区靠边</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:9pt;margin:6px 0 0"><b>点名 7 次：</b>集合 / 入园 / 厕所后 / 第一个路口 / 竹林岔路 / 主线绿道 / 出园上车（念名字＋看脸）</p>
+  <p style="font-size:9pt;margin:3px 0 0"><b>十条铁律：</b>不离队伍三步内｜上下阶牵手｜不推挤不并排不跑跳｜青苔石阶慢走｜路口停下点名｜不折竹不摘花不挖土｜不捡果子吃｜不摸不喂野生动物｜不带火种不吸烟｜走失原地等不自己找路</p>
+  <p style="font-size:9pt;margin:3px 0 0"><b>三条红线：</b>禁烟禁火｜不投喂不追赶野生动物｜不折不摘不挖（竹林的红色警示牌要读给孩子听）</p>
+  <p style="font-size:9pt;margin:3px 0 0"><b>走失：</b>孩子原地蹲下不乱跑 → 老师原地喊名举班级牌 → 1 分钟无果分头回找（优先第 3/5/6 站）→ 求助出入口值守点 → 10 分钟无果报警 110 ｜ <b>急救 120｜消防 119</b></p>
+  <p style="font-size:9pt;margin:3px 0 0">带班老师：__________　班级负责人：__________　园所值班：__________　园方服务台：__________</p>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:flex-start">
+      <div>
+        <b>半山国家森林公园 · 中班研学行前提示（踩点实走版）</b><br>
+        杭州 · 拱墅区 · 半山·龙山·虎山三园连通 · 开放式城市山地公园（主峰望宸阁海拔约 280 米）<br>
+        点位照片：2026-11 实地踩点实拍｜配套：《半山国家森林公园秋游方案.md》《秋游路线图.png》｜本页可离线打开，勾选进度存在本机
+      </div>
+      <div class="kv" style="max-width:320px">
+        使用提示：① 出发前把"随身速查卡"打印一版，每位老师一张；② 页面上方"打印"按钮只输出速查卡；③ 勾选状态自动保存，可二次修改；④ 遇雷雨/暴雨预警，直接改 C 保底版或改期。
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb"><span class="close" id="lbClose">×</span><img id="lbImg" alt="放大查看"></div>
+
+<script>
+(function(){
+  var KEY='banshan_task_v1';
+  var A=["点名册、班级牌、扩音喇叭/哨子（每组 1 个）","姓名贴（写班级＋老师手机号）＋任务卡人手一张","水壶＋杯垫（每人一个，不带玻璃瓶）","纸巾、湿巾、免洗洗手液","创可贴、碘伏棉签、驱蚊液","备用外套（秋冬）、雨衣/雨具","垃圾袋、垃圾夹（垃圾不落地）","拍照设备（手机＋充电宝）","点心与备用食品（体力弱的宝宝）","口袋纸巾/小毛巾（擦汗）"];
+  var B=["① 集合点名、分组、发姓名贴","② 入园（导览图上指一指）","③ 厕所：洗手、补水、整队","④ 第一个路口（讲路线·任务卡A）","⑤ 石阶上行（牵手·读红牌）","⑥ 竹林岔路口（任务卡C·必点名）","⑦ 台阶汇合·主线绿道牌（人齐再走）","⑧ 下行柏油绿道（任务卡C收尾·分享）","⑨ 集合上车、带回班级、交还物品"];
+
+  function save(s){try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}}
+  function load(){try{return JSON.parse(localStorage.getItem(KEY))||{};}catch(e){return {};}}
+
+  function build(host,items,key,barId,txtId){
+    var st=load();
+    host.innerHTML='';
+    items.forEach(function(t,i){
+      var id=key+'_'+i;
+      var l=document.createElement('label');
+      l.className='check'+(st[id]?' done':'');
+      var c=document.createElement('input'); c.type='checkbox'; c.checked=!!st[id]; c.id=id;
+      var s=document.createElement('span'); s.textContent=t;
+      c.addEventListener('change',function(){
+        l.classList.toggle('done',c.checked);
+        var s2=load(); s2[id]=c.checked; save(s2); update();
+      });
+      l.appendChild(c); l.appendChild(s); host.appendChild(l);
+    });
+    function update(){
+      var boxes=host.querySelectorAll('input');
+      var n=0; boxes.forEach(function(b){ if(b.checked) n++; });
+      document.getElementById(txtId).textContent=n+' / '+boxes.length;
+      document.getElementById(barId).style.width=(boxes.length?n/boxes.length*100:0)+'%';
+    }
+    update();
+  }
+
+  build(document.getElementById('listA'),A,'a','barA','barA-text');
+  build(document.getElementById('listB'),B,'b','barB','barB-text');
+
+  // 字号
+  var fs=[15,16,17,18,19], idx=1;
+  function setF(){document.documentElement.style.setProperty('--fs',fs[idx]+'px');try{localStorage.setItem(KEY+'_fs',idx);}catch(e){}}
+  try{var s=localStorage.getItem(KEY+'_fs'); if(s!==null){idx=parseInt(s)||1;}}catch(e){}
+  setF();
+  document.getElementById('fontUp').onclick=function(){ if(idx<fs.length-1){idx++;setF();} };
+  document.getElementById('fontDown').onclick=function(){ if(idx>0){idx--;setF();} };
+
+  // 打印
+  function pr(){window.print();}
+  document.getElementById('printBtn').onclick=pr;
+  document.getElementById('printBtn2').onclick=pr;
+
+  // 灯箱
+  var lb=document.getElementById('lb'),lbImg=document.getElementById('lbImg');
+  document.querySelectorAll('.pt .ph img').forEach(function(im){
+    im.addEventListener('click',function(){lbImg.src=this.src;lb.classList.add('on');});
+  });
+  document.getElementById('lbClose').onclick=function(){lb.classList.remove('on');};
+  lb.addEventListener('click',function(e){ if(e.target===lb) lb.classList.remove('on'); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') lb.classList.remove('on'); });
+})();
+</script>
+</body>
+</html>
